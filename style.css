@@ -1,0 +1,60 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#backgroundimage {
+	background-image: 
+	url(https://landingstock.com/wp-content/uploads/landingstock_images_34.jpg);
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+
+}
+
+.startuptext {
+	display: flex;
+	justify-content: center;
+	color: white;
+	align-items: center;
+	position: relative;
+	top: 310px;
+	font-size: 1.3em;
+}
+
+#mainbutton {
+	background-color: #710022;
+	color: white;
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top: 410px;
+	transition: ease 1s;
+}
+
+.btn {
+	border-radius: 20%;
+	transition: ease 1s;
+	color: white;
+	background-color: red;
+}
+
+.jumbotron {
+	background-image: linear-gradient(#43464B, #D3D3D3);
+}
+
+.lead, .my-4, .display-4, .j-paragraph {
+	color: white;
+}
+
+.button:hover, .btn:hover {
+	transform: scale(1.1);
+}
